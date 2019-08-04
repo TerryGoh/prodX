@@ -88,7 +88,7 @@ var updateProductListHTML = () => {
         <div class="li_product_image"><img src=${item.image}></div>
         <div class="li_product_name">${item.brand}, ${item.name}</div>
         <div class="li_product_price">$${item.price}</div>
-        <div id="prod_loc" style="float:left; width:20%">Product Locations : ${productCount}</div>
+        <div id="prod_loc" style="float:left; width:60%">Product Locations : ${productCount}</div>
         </li>`
     }
 
